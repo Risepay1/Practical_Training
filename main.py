@@ -57,7 +57,7 @@ def show_tasks(tasks, sort_by_status=False):
 
     print("\n--- Список задач ---")
     for number, task in items:
-        status = "✓" if task["done"] else "✗"
+        status = "✓" if task["done"] else "Х"
         print(f'{number}. [{status}] {task["title"]}')
     print("--------------------\n")
 
